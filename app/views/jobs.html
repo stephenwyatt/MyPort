@@ -1,0 +1,17 @@
+<div class="page-header">
+
+	<h2>Work Experience</h2>
+</div>
+
+<ul>
+	<li ng-repeat="job in jobs">
+		<h4>{{job.name}}</h4>
+		<h6>{{job.position}}</h6>
+		<img ng-src="{{job.imageUrl}}"></br>
+		<a ng-href="{{job.website}}">{{job.website}}</a></br>
+		<i>{{job.dates}}</i></br>
+		{{job.details}}</br>
+		<i> <a href="#/jobs/{{job.id}}">More Details</a></i>
+	</li>
+</ul>
+

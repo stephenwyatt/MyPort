@@ -1,0 +1,39 @@
+<div class ="page-header">
+  <h2>Current Work</h2>
+</div>
+
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span2">
+      <h4>Contact Info</h4>
+      <address>
+     <b>Job Supervisor: </b></br>
+     {{job.supervisor}}</br>
+      {{job.road}}</br>
+      {{job.city}}</br>
+      {{job.phone}}</br>
+    <a href={{job.website}}>{{job.website}}</a>
+    </address>
+    </div>
+    <div class="span10">
+      <div class="well well-large">
+      <h2>{{job.company}}</h2>
+       <img ng-src="{{job.imageUrl}}"></br>
+        <b><h5>Work Dates:</h5></b>
+        </b>{{job.start}}-{{job.end}}</b>
+      <h5> Company</h5>
+        <p>{{job.companys}}</p>
+        <h5>Company Summary</h5>
+        <p>{{job.summary}}</p>
+      <h5> Job Duties </h5>
+      <ul class="unstyled">
+        <li ng-repeat= "detail in details">
+          <p class="text-success">
+          <li>{{job.details}}</li>
+          <li>{{job.details1}}</li>
+          <li>{{job.details2}}</li></p>
+      </ul>
+</div>
+    </div>
+  </div>
+</div>

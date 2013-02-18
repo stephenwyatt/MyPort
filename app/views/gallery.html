@@ -1,0 +1,19 @@
+
+ <div id="header">
+  <h1>THE VAULT</h1>
+  
+<div ng-controller="GalleryCtrl">
+     
+      <h2>{{currentImage.description | uppercase }}</h2>
+      <div id="galleryImage">
+        <img ng-src="{{currentImage.image}}">
+</div>
+
+<div id="thumbWrapper">
+  <ul id="thumbList">
+    <li ng-repeat="image in images" ng-click="setCurrentImage(image)">
+      <img ng-src="{{image.thumbnail}}">
+    </li>
+  </ul>
+</div>
+

@@ -1,0 +1,11 @@
+<div class="page-header">
+<h2>Education</h2>
+</div>
+<p><i>Search:  </i><input ng-model="query"><img ng-src="/app/img/virginiatech-logo.jpg">
+	<li ng-repeat="school in schools | filter:query">
+	<h4><a ng-href="{{school.url}}">{{school.name}}</a>,  {{school.location}}</h4>
+		Major | Course Study: <b>{{school.major |uppercase}}</b></br>
+		Degree:<b>{{school.degree}}</b></br>
+	</li>
+</ul>
+</div>

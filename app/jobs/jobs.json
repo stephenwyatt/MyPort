@@ -1,0 +1,30 @@
+[
+{
+   
+	"id": "jrs",
+	 "name": "Jack Russell Software",
+	 "website" : "http://www.jackhq.com",
+	 "position":"Software Apprentice",
+	 "dates": "9/2012 | Present",
+	 "imageUrl": "/app/img/jackhq-logo.png",
+	 "details" : "Help develop web applications.,Help develop web applications using the Ruby on Rails Web Framework, along with Coffee-Script, Sass and Haml."},
+
+	{
+
+	"id":"thevault",
+	"name": "THE VAULT | SHOPTHEVAULT.BIZ", 
+	"website": "http://www.thevaultcharleston.com",
+	"position":"Director of Marketing | E-Commerce", 
+	"dates": "9/2012 | Present",
+	"imageUrl": "/app/img/v.jpg",
+	"details": "Handle all marketing and E-commerce"},
+
+	{
+	"id":"rapidrepairs",
+	"name": "Rapid Repairs | Home Repairs", 
+	"website":"http://www.rapidrepairs247.com",
+	"position":"Director of Multimedia", 
+	"dates": "9/2012 | Present",
+	"imageUrl": "/app/img/rr.jpg",
+	"details" : "Designed websign and manange social media"}
+	]
